@@ -13,8 +13,8 @@ export default function Home() {
             </div>
           </div>
           <div className='row-span-2 flex items-center'>
-            <div className='mx-auto aspect-[9/19.5] w-1/3 -translate-y-1/4 translate-x-full border'></div>
-            <div className='mx-auto aspect-[9/19.5] w-1/3 -translate-x-full translate-y-1/4 border'></div>
+            <div className='mx-auto aspect-[9/19.5] w-1/3 -translate-y-1/4 translate-x-full rounded-lg border bg-slate-50 shadow-lg dark:bg-black dark:shadow-primary-700'></div>
+            <div className='mx-auto aspect-[9/19.5] w-1/3 -translate-x-full translate-y-1/4 rounded-lg border bg-slate-50 shadow-lg dark:bg-black dark:shadow-primary-700'></div>
           </div>
         </div>
         <div className='h-8 w-full rounded-b-xl border-b' />
