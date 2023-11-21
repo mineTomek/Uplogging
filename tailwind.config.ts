@@ -49,6 +49,9 @@ const config: Config = {
           950: '#16040b',
         },
       },
+      height: {
+        screen: '100dvh',
+      },
     },
   },
   plugins: [],

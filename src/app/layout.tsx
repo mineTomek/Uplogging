@@ -14,7 +14,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className={`${getContentFont().className} bg-slate-50 dark:bg-black text-slate-950 dark:text-slate-50`}>{children}</body>
+      <body
+        className={`${
+          getContentFont().className
+        } bg-slate-50 text-slate-950 dark:bg-black dark:text-slate-50`}
+      >
+        {children}
+      </body>
     </html>
   )
 }
