@@ -50,8 +50,8 @@ const config: Config = {
         },
       },
       height: {
-        screen: '100dvh'
-      }
+        screen: '100dvh',
+      },
     },
   },
   plugins: [],
