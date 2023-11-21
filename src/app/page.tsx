@@ -1,3 +1,4 @@
+import Feature from './components/home/section/features/Feature'
 import { getTitleFont } from './fonts'
 
 export default function Home() {
@@ -21,19 +22,11 @@ export default function Home() {
         <div className={`${getTitleFont().className} mt-16 text-center`}>
           <h3 className='text-[2vw]'>Features</h3>
           <div className='mx-auto mt-8 grid aspect-square w-1/2 grid-cols-3 grid-rows-3'>
-            <div className='col-span-2 m-1 border p-8 text-left text-4xl'>
-              Lorem Ipsum
-            </div>
-            <div className='row-span-2 m-1 border p-8 text-left text-4xl'>
-              Lorem Ipsum
-            </div>
-            <div className='row-span-2 m-1 border p-8 text-left text-4xl'>
-              Lorem Ipsum
-            </div>
-            <div className='m-1 border p-8 text-left text-4xl'>Lorem Ipsum</div>
-            <div className='col-span-2 m-1 border p-8 text-left text-4xl'>
-              Lorem Ipsum
-            </div>
+            <Feature colSpan title="Jump Rope"/>
+            <Feature rowSpan title="Except Foot"/>
+            <Feature rowSpan title="President Contrast"/>
+            <Feature title="Accurate Correctly"/>
+            <Feature colSpan title="Slow Country"/>
           </div>
         </div>
       </div>
