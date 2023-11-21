@@ -17,6 +17,25 @@ export default function Home() {
           </div>
         </div>
         <div className='h-8 w-full rounded-b-xl border-b' />
+
+        <div className={`${getTitleFont().className} mt-16 text-center`}>
+          <h3 className='text-[2vw]'>Features</h3>
+          <div className='mx-auto mt-8 grid aspect-square w-1/2 grid-cols-3 grid-rows-3'>
+            <div className='col-span-2 m-1 border p-8 text-left text-4xl'>
+              Lorem Ipsum
+            </div>
+            <div className='row-span-2 m-1 border p-8 text-left text-4xl'>
+              Lorem Ipsum
+            </div>
+            <div className='row-span-2 m-1 border p-8 text-left text-4xl'>
+              Lorem Ipsum
+            </div>
+            <div className='m-1 border p-8 text-left text-4xl'>Lorem Ipsum</div>
+            <div className='col-span-2 m-1 border p-8 text-left text-4xl'>
+              Lorem Ipsum
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   )
