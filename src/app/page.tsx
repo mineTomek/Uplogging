@@ -22,11 +22,23 @@ export default function Home() {
         <div className={`${getTitleFont().className} mt-16 text-center`}>
           <h3 className='text-xl'>Features</h3>
           <div className='mx-auto mt-8 grid aspect-square w-1/2 grid-cols-3 grid-rows-3'>
-            <Feature colSpan title="Jump Rope"/>
-            <Feature rowSpan title="Except Foot"/>
-            <Feature rowSpan title="President Contrast"/>
-            <Feature title="Accurate Correctly"/>
-            <Feature colSpan title="Slow Country"/>
+            <Feature
+              colSpan
+              title='Jump Rope'
+            />
+            <Feature
+              rowSpan
+              title='Except Foot'
+            />
+            <Feature
+              rowSpan
+              title='President Contrast'
+            />
+            <Feature title='Accurate Correctly' />
+            <Feature
+              colSpan
+              title='Slow Country'
+            />
           </div>
         </div>
       </div>
