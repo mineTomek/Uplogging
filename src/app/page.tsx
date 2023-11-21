@@ -3,7 +3,7 @@ import { getTitleFont } from './fonts'
 
 export default function Home() {
   return (
-    <main className='flex flex-col gap-4'>
+    <main className='flex flex-col gap-4 mb-16'>
       <div>
         <div className='grid h-screen grid-rows-3 p-5 md:grid-cols-2 md:grid-rows-1'>
           <div className='flex items-center justify-center'>
