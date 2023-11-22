@@ -5,3 +5,9 @@
 .no-scrollbar::-webkit-scrollbar {
   @apply hidden;
 }
+
+@layer components {
+  .unfocused-card {
+    @apply opacity-90 blur-sm;
+  }
+}
