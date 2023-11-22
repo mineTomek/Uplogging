@@ -23,7 +23,7 @@ export default function Home() {
 
       <div className={`${getTitleFont().className} mt-16 text-center`}>
         <h3 className='text-xl'>Features</h3>
-        <div className='mx-auto mt-8 grid aspect-square w-1/2 grid-cols-3 grid-rows-3'>
+        <div className='mx-16 mt-8 grid aspect-square grid-cols-3 grid-rows-3'>
           <Feature
             colSpan
             title='Jump Rope'
