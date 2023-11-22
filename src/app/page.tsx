@@ -1,9 +1,12 @@
 import Feature from './components/home/section/features/Feature'
+import BackgroundFeature from './components/home/section/hero/BackgroundFeature'
 import { getTitleFont } from './fonts'
 
 export default function Home() {
   return (
     <main className='mb-16 flex flex-col gap-4'>
+      <BackgroundFeature />
+
       <div className='grid h-screen grid-rows-3 bg-white/30 p-5 dark:bg-black/30 md:grid-cols-2 md:grid-rows-1'>
         <div className='flex items-center justify-center'>
           <div className={getTitleFont().className}>
