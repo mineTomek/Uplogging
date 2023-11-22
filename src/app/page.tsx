@@ -1,5 +1,5 @@
 import Feature from './components/home/section/features/Feature'
-import BackgroundFeature from './components/home/section/hero/BackgroundFeature'
+import BackgroundFeature from './components/home/full/BackgroundFeature'
 import { getTitleFont } from './fonts'
 
 export default function Home() {
